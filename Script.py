@@ -24,8 +24,8 @@ class script(object):
 - /stickerid - 𝖦𝖾𝗍 𝖨𝖣
 """
     ABOUT_TXT = """
-○ 𝖬𝗒 𝖭𝖺𝗆e : Tᴏᴠɪɴᴏ
-○ 𝖢𝗋𝖾𝖺𝗍𝗈𝗋 : <a href='https://t.me/aboutme_DK'>𝖳𝗁𝗂𝗌 𝖯𝖾𝗋𝗌𝗈𝗇</a>
+○ 𝖬𝗒 𝖭𝖺𝗆e : It's Ok
+○ 𝖢𝗋𝖾𝖺𝗍𝗈𝗋 : <a href='https://t.me/sukhmankaler'>𝖳𝗁𝗂𝗌 𝖯𝖾𝗋𝗌𝗈𝗇</a>
 ○ 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾 : 𝖯𝗒𝗍𝗁𝗈𝗇 𝟥 
 ○ 𝖫𝗂𝖻𝗋𝖺𝗋𝗒 : 𝖯𝗒𝗋𝗈𝗀𝗋𝖺𝗆 𝖺𝗌𝗒𝗇𝖼𝗂𝗈 𝟢.𝟣𝟩.𝟣 
 ○ 𝖲𝖾𝗋𝗏𝖾𝗋 : Contabo
@@ -37,7 +37,7 @@ class script(object):
 
 CODES:
 
-» https://github.com/DKBOTx/TovinoBotV3
+» https://github.com/Sukhj12/TovinoBotV3
 """
     TTS_TXT = """<b>TEXT TO SPEACH</b>
 Simple Telegram Text-To-Speech Module.
