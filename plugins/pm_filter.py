@@ -1112,8 +1112,8 @@ async def advantage_spell_chok(msg):
     g_s += await search_gagala(msg.text)
     gs_parsed = []
     if not g_s:
-        k = await msg.reply("𝖨 𝖼𝖺𝗇𝗍 𝖿𝗂𝗇𝖽 𝗂𝗍 𝗂𝗇 𝗆𝗒 𝖣𝖺𝗍𝖺𝖡𝖺𝗌𝖾.")
-        await asyncio.sleep(8)
+        k = await msg.reply_photo(photo="https://telegra.ph/file/650c8b857763f8d96892c.jpg", caption="💙𝚃𝙷𝙸𝚂 𝙼𝙾𝚅𝙸𝙴 𝚂𝙿𝙴𝙻𝙻𝙸𝙽𝙶 𝚆𝚁𝙾𝙽𝙶, 𝚃𝚈𝙿𝙴 𝙲𝙾𝚁𝚁𝙴𝙲𝚃 𝚂𝙿𝙴𝙻𝙻𝙸𝙽𝙶,𝙲𝙷𝙴𝙲𝙺 𝚃𝙷𝙴 𝙿𝙸𝙲𝚃𝚄𝚁𝙴,𝙰𝙽𝙳 𝙲𝙾𝙿𝚈 𝙿𝙰𝚂𝚃𝙴 𝙻𝙸𝙺𝙴 𝚃𝙷𝙸𝚂⚕️")
+        await asyncio.sleep()
         await k.delete()
         return
     regex = re.compile(r".*(imdb|wikipedia).*", re.IGNORECASE)  # look for imdb / wiki results
