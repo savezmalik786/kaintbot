@@ -150,8 +150,8 @@ async def advantage_spoll_choker(bot, query):
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
         else:
-            k = await query.message.edit('This Movie Not Found In DataBase')
-            await asyncio.sleep(10)
+            k = await query.message.edit('<b>𝚃𝙷𝙸𝚂 𝙼𝙾𝚅𝙸𝙴 𝙽𝙾𝚃 𝚄𝙿𝙻𝙾𝙰𝙳 𝚁𝚄𝚀𝙸𝙴𝚂𝚃 𝚃𝙾 𝙰𝙳𝙼𝙸𝙽𝙴 👉♻️ @DmAdmine ♻️👈</b>')
+            await asyncio.sleep(20)
             await k.delete()
 
 
@@ -1159,6 +1159,7 @@ async def advantage_spell_chok(msg):
                     reply_markup=InlineKeyboardMarkup(btn))
     await asyncio.sleep(20)
     await m.delete()
+
 
 async def manual_filters(client, message, text=False):
     group_id = message.chat.id
