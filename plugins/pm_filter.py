@@ -1141,14 +1141,24 @@ async def advantage_spell_chok(msg):
     movielist += [(re.sub(r'(\-|\(|\)|_)', '', i, flags=re.IGNORECASE)).strip() for i in gs_parsed]
     movielist = list(dict.fromkeys(movielist))  # removing duplicates
     if not movielist:
-        k = await msg.reply("𝖡𝗋𝗈, 𝖢𝗁𝖾𝖼𝗄 𝗍𝗁𝖾 𝗌𝗉𝖾𝗅𝗅𝗂𝗇𝗀 𝖸𝗈𝗎 𝗁𝖺𝗏𝖾 𝗌𝖾𝗇𝖽 𝗂𝗇 𝗀𝗈𝗈𝗀𝗅𝖾. 𝖨𝖿 𝖸𝗈𝗎 𝗁𝖺𝗏𝖾 𝗋𝖾𝗊𝗎𝖾𝗌𝗍𝖾𝖽 𝖥𝗈𝗋 𝖢𝖺𝗆 𝗉𝗋𝗂𝗇𝗍 𝖸𝗈𝗎 𝗐𝗂𝗅𝗅 𝗇𝗈𝗍 𝖦𝖾𝗍 𝗂𝗍.")
-        await asyncio.sleep(8)
+        one_button = InlineKeyboardMarkup([[InlineKeyboardButton("⚕️𝐴𝐷𝑀𝐼𝑁𝐸⚕️", url="https://t.me/DmAdmine"), InlineKeyboardButton("♻️𝐺𝑂𝑂𝐺𝐿𝐸 ♻️", url="https://www.google.com/")]])
+        k = await msg.reply_photo(photo="https://telegra.ph/file/650c8b857763f8d96892c.jpg", caption="💙𝚃𝙷𝙸𝚂 𝙼𝙾𝚅𝙸𝙴 𝚂𝙿𝙴𝙻𝙻𝙸𝙽𝙶 𝚆𝚁𝙾𝙽𝙶, 𝚃𝚈𝙿𝙴 𝙲𝙾𝚁𝚁𝙴𝙲𝚃 𝚂𝙿𝙴𝙻𝙻𝙸𝙽𝙶,𝙲𝙷𝙴𝙲𝙺 𝚃𝙷𝙴 𝙿𝙸𝙲𝚃𝚄𝚁𝙴,𝙰𝙽𝙳 𝙲𝙾𝙿𝚈 𝙿𝙰𝚂𝚃𝙴 𝙻𝙸𝙺𝙴 𝚃𝙷𝙸𝚂⚕️", reply_markup = one_button)
+        await asyncio.sleep(20)
         await k.delete()
+        await msg.delete()
         return
     SPELL_CHECK[msg.message_id] = movielist
-    btn = [InlineKeyboardButton("🔍ɢᴏᴏɢʟᴇ🔎", url=f'https://google.com/search?q={query}')]
-    await msg.reply("𝖡𝗋𝗈, 𝖢𝗁𝖾𝖼𝗄 𝗍𝗁𝖾 𝗌𝗉𝖾𝗅𝗅𝗂𝗇𝗀 𝖸𝗈𝗎 𝗁𝖺𝗏𝖾 𝗌𝖾𝗇𝖽 𝗂𝗇 𝗀𝗈𝗈𝗀𝗅𝖾. 𝖨𝖿 𝖸𝗈𝗎 𝗁𝖺𝗏𝖾 𝗋𝖾𝗊𝗎𝖾𝗌𝗍𝖾𝖽 𝖥𝗈𝗋 𝖢𝖺𝗆 𝗉𝗋𝗂𝗇𝗍 𝖸𝗈𝗎 𝗐𝗂𝗅𝗅 𝗇𝗈𝗍 𝖦𝖾𝗍 𝗂𝗍.",
+    btn = [[
+        InlineKeyboardButton(
+            text=movie.strip(),
+            callback_data=f"spolling#{user}#{k}",
+        )
+    ] for k, movie in enumerate(movielist)]
+    btn.append([InlineKeyboardButton(text="Close", callback_data=f'spolling#{user}#close_spellcheck')])
+    m = await msg.reply("I couldn't find anything related to that\nDid you mean any one of these?",
                     reply_markup=InlineKeyboardMarkup(btn))
+    await asyncio.sleep(20)
+    await m.delete()
 
 async def manual_filters(client, message, text=False):
     group_id = message.chat.id
