@@ -25,10 +25,10 @@ async def start(client, message: pyrogram.types.Message):
 
     if message.chat.type in ['group', 'supergroup']:
         buttons = [[
-        InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true') ] ,
-      [
-        InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about_menu'),
-        InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close')
+        InlineKeyboardButton('➕ 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true') ] ,
+     [
+        InlineKeyboardButton('🧛𝙲𝙷𝙰𝙽𝙽𝙴𝙻🧛, url='https://t.me/+E5spjHhOEAFlMjRl),
+        InlineKeyboardButton('🦹‍♀️𝙶𝚁𝙾𝚄𝙿🦹‍♀️, url='https://t.me/+7FcPo53Z7VZkZDM9')
     ]]
        
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -71,10 +71,10 @@ async def start(client, message: pyrogram.types.Message):
     if len(message.command) != 2:
 
         buttons = [[
-        InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true') ] ,
-      [
-        InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about_menu'),
-        InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close')
+        InlineKeyboardButton('➕ 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true') ] ,
+     [
+        InlineKeyboardButton('🧛𝙲𝙷𝙰𝙽𝙽𝙴𝙻🧛, url='https://t.me/+E5spjHhOEAFlMjRl),
+        InlineKeyboardButton('🦹‍♀️𝙶𝚁𝙾𝚄𝙿🦹‍♀️, url='https://t.me/+7FcPo53Z7VZkZDM9')
     ]]
 
         reply_markup = InlineKeyboardMarkup(buttons)
