@@ -27,7 +27,7 @@ async def start(client, message: pyrogram.types.Message):
         buttons = [[
         InlineKeyboardButton('➕ 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true') ] ,
      [
-        InlineKeyboardButton('🧛𝙲𝙷𝙰𝙽𝙽𝙴𝙻🧛', url='https://t.me/+E5spjHhOEAFlMjRl),
+        InlineKeyboardButton('🧛𝙲𝙷𝙰𝙽𝙽𝙴𝙻🧛', url='https://t.me/+E5spjHhOEAFlMjRl'),
         InlineKeyboardButton('🦹‍♀️𝙶𝚁𝙾𝚄𝙿🦹‍♀️', url='https://t.me/+7FcPo53Z7VZkZDM9')
     ]]
        
@@ -73,7 +73,7 @@ async def start(client, message: pyrogram.types.Message):
         buttons = [[
         InlineKeyboardButton('➕ 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true') ] ,
      [
-        InlineKeyboardButton('🧛𝙲𝙷𝙰𝙽𝙽𝙴𝙻🧛, url='https://t.me/+E5spjHhOEAFlMjRl),
+        InlineKeyboardButton('🧛𝙲𝙷𝙰𝙽𝙽𝙴𝙻🧛, url='https://t.me/+E5spjHhOEAFlMjRl'),
         InlineKeyboardButton('🦹‍♀️𝙶𝚁𝙾𝚄𝙿🦹‍♀️, url='https://t.me/+7FcPo53Z7VZkZDM9')
     ]]
 
