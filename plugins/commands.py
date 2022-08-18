@@ -25,11 +25,11 @@ async def start(client, message: pyrogram.types.Message):
 
     if message.chat.type in ['group', 'supergroup']:
         buttons = [[
-        InlineKeyboardButton('✔️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ✔️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-            ],[
-            InlineKeyboardButton('🔰 ᴄʜᴀɴɴᴇʟ 🔰', url='https://t.me/+E5spjHhOEAFlMjRl'),
-            InlineKeyboardButton('📛 ᴏᴡɴᴇʀ 📛', url='https://t.me/Sukhmankaler')
-        ]]
+        InlineKeyboardButton('➕ ᴅᴇᴠʟᴏᴘᴇʀ➕', url=f'http://t.me/Sukhmankaler') ] ,
+      [
+        InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about_menu'),
+        InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close')
+    ]]
        
         reply_markup = InlineKeyboardMarkup(buttons)
         if not START_IMAGE_URL:
@@ -71,10 +71,10 @@ async def start(client, message: pyrogram.types.Message):
     if len(message.command) != 2:
 
         buttons = [[
-        InlineKeyboardButton('➕ 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true') ] ,
-     [
-        InlineKeyboardButton('🧛𝙲𝙷𝙰𝙽𝙽𝙴𝙻🧛, url='https://t.me/+E5spjHhOEAFlMjRl'),
-        InlineKeyboardButton('🦹‍♀️𝙶𝚁𝙾𝚄𝙿🦹‍♀️, url='https://t.me/+7FcPo53Z7VZkZDM9')
+        InlineKeyboardButton('➕ ᴅᴇᴠʟᴏᴘᴇʀ➕', url=f'http://t.me/Sukhmankaler') ] ,
+      [
+        InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about_menu'),
+        InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close')
     ]]
 
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -121,11 +121,11 @@ async def start(client, message: pyrogram.types.Message):
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
 
         buttons = [[
-        InlineKeyboardButton('✔️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ✔️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-            ],[
-            InlineKeyboardButton('🔰 ᴄʜᴀɴɴᴇʟ 🔰', url='https://t.me/+E5spjHhOEAFlMjRl'),
-            InlineKeyboardButton('📛 ᴏᴡɴᴇʀ 📛', url='https://t.me/Sukhmankaler')
-        ]]
+        InlineKeyboardButton('➕ ᴅᴇᴠʟᴏᴘᴇʀ➕', url=f'http://t.me/Sukhmankaler') ] ,
+      [
+        InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about_menu'),
+        InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close')
+    ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
