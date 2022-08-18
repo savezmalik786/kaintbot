@@ -426,7 +426,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             msg = await client.send_cached_media(
                 chat_id=AUTH_CHANNEL,
                 file_id=file_id,
-                caption=f'<b>Hai 👋 {query.from_user.mention}</b> 😍\n\n<code>[DK_BOTx] {title}</code>\n\n⚠️ <i>This file will be deleted from here within 5 minute as it has copyright ... !!!</i>\n\n<i>आपकी मूवी चैनल से 5 MIN के बाद Delete हो जायेगी आप लोग मूवी को Forward करले</i>\n\n<i><b>⚡ Powered by {query.message.chat.title}</b></i>',
+                caption=f'<b>Hai 👋 {query.from_user.mention}</b> 😍\n\n<code>[ɪᴛs_ᴏᴋ] {title}</code>\n\n⚠️ <i>This file will be deleted from here within 5 minute as it has copyright ... !!!</i>\n\n<i>आपकी मूवी चैनल से 5 MIN के बाद Delete हो जायेगी आप लोग मूवी को Forward करले</i>\n\n<i><b>⚡ Powered by {query.message.chat.title}</b></i>',
                 protect_content=True if ident == "filep" else False 
             )
             msg1 = await query.message.reply(
