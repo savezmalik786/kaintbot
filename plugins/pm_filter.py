@@ -497,11 +497,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-        InlineKeyboardButton('✔️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ✔️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-            ],[
-            InlineKeyboardButton('🔰 ᴄʜᴀɴɴᴇʟ 🔰', url='https://t.me/+E5spjHhOEAFlMjRl'),
-            InlineKeyboardButton('📛 ᴏᴡɴᴇʀ 📛', url='https://t.me/Sukhmankaler')
-        ]]
+        InlineKeyboardButton('➕ ᴅᴇᴠʟᴏᴘᴇʀ➕', url=f'http://t.me/Sukhmankaler') ] ,
+      [
+        InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about_menu'),
+        InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close')
+    ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.delete()
         if not START_IMAGE_URL:
@@ -558,7 +558,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                         InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about_menu')
                     ],
                     [
-                        InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='start'),
+                        InlineKeyboardButton('sᴛᴀʀᴛ', callback_data='start'),
                         InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close')
                     ]
                 ]
@@ -566,9 +566,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about_menu":
         buttons = [[
-        InlineKeyboardButton('ADMINE', url='https://t.me/sukhmankaler'),
-        InlineKeyboardButton('BACKUP', url='https://t.me/+E5spjHhOEAFlMjRl'),
-        InlineKeyboardButton('BACK', callback_data='start')
+        InlineKeyboardButton('ɢʀᴏᴜᴏ', url='https://t.me/+7FcPo53Z7VZkZDM9'),
+        InlineKeyboardButton('ʙᴀᴄᴋᴜᴘ', url='https://t.me/+E5spjHhOEAFlMjRl'),
+        InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.delete()
