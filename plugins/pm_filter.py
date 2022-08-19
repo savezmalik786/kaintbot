@@ -499,7 +499,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
         InlineKeyboardButton('💝 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 💝', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ],[
-        InlineKeyboardButton('♻️ 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ♻️', url='https://t.me/+E5spjHhOEAFlMjRl'),
+        InlineKeyboardButton('♻️ 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ♻️', url='https://t.me/+29zDnMjiev5iYTA1'),
         InlineKeyboardButton('📛 𝙶𝚁𝙾𝚄𝙿 📛', url='https://t.me/+LmjeEQKvH_Q3ODVl')
        ],[  
        InlineKeyboardButton('⚕️ 𝙷𝚎𝚕𝚙 ⚕️', callback_data='help'),
@@ -1028,9 +1028,9 @@ async def auto_filter(client, msg: pyrogram.types.Message, spoll=False):
     )
     btn.insert(1,
         [
-            InlineKeyboardButton(text="🧛𝙶𝚁𝙾𝚄𝙿🧛", url="https://t.me/+HJuPzRiewsw5ZTI1"),
+            InlineKeyboardButton(text="🧛𝙶𝚁𝙾𝚄𝙿🧛", url="https://t.me/+LmjeEQKvH_Q3ODVl"),
             InlineKeyboardButton(text="🦹‍♀️𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴🦹‍♀️", url="https://youtube.com/shorts/WiDmMCNCcGQ?feature=share"),
-            InlineKeyboardButton(text="🧞‍♂️𝙲𝙷𝙰𝙽𝙽𝙴𝙻🧞‍♂️", url="https://t.me/+E5spjHhOEAFlMjRl")
+            InlineKeyboardButton(text="🧞‍♂️𝙲𝙷𝙰𝙽𝙽𝙴𝙻🧞‍♂️", url="https://t.me/+29zDnMjiev5iYTA1")
         ]
     )
 
