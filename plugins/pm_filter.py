@@ -438,10 +438,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton('🖤 Your Movie 🖤 ', url = msg.link)
+                            InlineKeyboardButton('🖤 𝐘O𝐔R 𝐌O𝐕I𝐄 🖤 ', url = msg.link)
                         ],                       
                         [
-                            InlineKeyboardButton("🖤 Channel Join First 🖤", url=f'https://t.me/+UDh4LfMu3G8xNzNl')
+                            InlineKeyboardButton("🖤 𝐓H𝐈S C𝐇A𝐍N𝐄L 🖤", url=f'https://t.me/+UDh4LfMu3G8xNzNl')
                         ]
                     ]
                 )
@@ -497,10 +497,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-        InlineKeyboardButton('➕ ᴅᴇᴠʟᴏᴘᴇʀ➕', url=f'http://t.me/Sukhmankaler') ] ,
-      [
-        InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about_menu'),
-        InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close')
+        InlineKeyboardButton('💝 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 💝', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+        ],[
+        InlineKeyboardButton('♻️ 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ♻️', url='https://t.me/+E5spjHhOEAFlMjRl'),
+        InlineKeyboardButton('📛 𝙶𝚁𝙾𝚄𝙿 📛', url='https://t.me/+HJuPzRiewsw5ZTI1')
+       ],[  
+       InlineKeyboardButton('⚕️ 𝙷𝚎𝚕𝚙 ⚕️', callback_data='help')
     ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.delete()
