@@ -441,7 +441,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                             InlineKeyboardButton('🖤 𝐘O𝐔R 𝐌O𝐕I𝐄 🖤 ', url = msg.link)
                         ],                       
                         [
-                            InlineKeyboardButton("🖤 𝐓H𝐈S C𝐇A𝐍N𝐄L 🖤", url=f'https://t.me/+UDh4LfMu3G8xNzNl')
+                            InlineKeyboardButton("🖤 𝐓H𝐈S C𝐇A𝐍N𝐄L 𝐂L𝐈C𝐊 𝐌E 🖤", url=f'https://t.me/+UDh4LfMu3G8xNzNl')
                         ]
                     ]
                 )
@@ -502,7 +502,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         InlineKeyboardButton('♻️ 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ♻️', url='https://t.me/+E5spjHhOEAFlMjRl'),
         InlineKeyboardButton('📛 𝙶𝚁𝙾𝚄𝙿 📛', url='https://t.me/+HJuPzRiewsw5ZTI1')
        ],[  
-       InlineKeyboardButton('⚕️ 𝙷𝚎𝚕𝚙 ⚕️', callback_data='help')
+       InlineKeyboardButton('⚕️ 𝙷𝚎𝚕𝚙 ⚕️', callback_data='help'),
     ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.delete()
@@ -1028,7 +1028,7 @@ async def auto_filter(client, msg: pyrogram.types.Message, spoll=False):
     )
     btn.insert(1,
         [
-            InlineKeyboardButton(text="🧛𝙶𝚁𝙾𝚄𝙿🧛", url="https://t.me/+7FcPo53Z7VZkZDM9"),
+            InlineKeyboardButton(text="🧛𝙶𝚁𝙾𝚄𝙿🧛", url="https://t.me/+HJuPzRiewsw5ZTI1"),
             InlineKeyboardButton(text="🦹‍♀️𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴🦹‍♀️", url="https://youtube.com/shorts/WiDmMCNCcGQ?feature=share"),
             InlineKeyboardButton(text="🧞‍♂️𝙲𝙷𝙰𝙽𝙽𝙴𝙻🧞‍♂️", url="https://t.me/+E5spjHhOEAFlMjRl")
         ]
