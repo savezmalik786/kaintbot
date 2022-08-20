@@ -283,7 +283,7 @@ async def start(client, message: pyrogram.types.Message):
         caption=f_caption,
         protect_content=True if pre == 'filep' else False,
     )
-    await asyncio.sleep(6,)
+    await asyncio.sleep(300)
     await dm.delete()
                     
 
