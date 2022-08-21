@@ -27,8 +27,8 @@ async def start(client, message: pyrogram.types.Message):
         buttons = [[
         InlineKeyboardButton('💝 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 💝', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ],[
-        InlineKeyboardButton('♻️ 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ♻️', url='https://t.me/+29zDnMjiev5iYTA1'),
-        InlineKeyboardButton('📛 𝙶𝚁𝙾𝚄𝙿 📛', url='https://t.me/+LmjeEQKvH_Q3ODVl')
+        InlineKeyboardButton('♻️ 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ♻️', url='https://t.me/+thGM8huKvT1jZWFl'),
+        InlineKeyboardButton('📛 𝙶𝚁𝙾𝚄𝙿 📛', url='https://t.me/+RP9ef7uRboBlZTk1')
         ],[  
         InlineKeyboardButton('⚕️ 𝙷𝚎𝚕𝚙 ⚕️', callback_data='help')
     ]]
@@ -75,8 +75,8 @@ async def start(client, message: pyrogram.types.Message):
         buttons = [[
         InlineKeyboardButton('💝 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 💝', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ],[
-        InlineKeyboardButton('♻️ 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ♻️', url='https://t.me/+29zDnMjiev5iYTA1'),
-        InlineKeyboardButton('📛 𝙶𝚁𝙾𝚄𝙿 📛', url='https://t.me/+LmjeEQKvH_Q3ODVl')
+        InlineKeyboardButton('♻️ 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ♻️', url='https://t.me/+thGM8huKvT1jZWFl'),
+        InlineKeyboardButton('📛 𝙶𝚁𝙾𝚄𝙿 📛', url='https://t.me/+RP9ef7uRboBlZTk1')
         ],[  
         InlineKeyboardButton('⚕️ 𝙷𝚎𝚕𝚙 ⚕️', callback_data='help')
     ]]
@@ -127,8 +127,8 @@ async def start(client, message: pyrogram.types.Message):
         buttons = [[
         InlineKeyboardButton('💝 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 💝', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ],[
-        InlineKeyboardButton('♻️ 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ♻️', url='https://t.me/+29zDnMjiev5iYTA1'),
-        InlineKeyboardButton('📛 𝙶𝚁𝙾𝚄𝙿 📛', url='https://t.me/+LmjeEQKvH_Q3ODVl')
+        InlineKeyboardButton('♻️ 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ♻️', url='https://t.me/+thGM8huKvT1jZWFl'),
+        InlineKeyboardButton('📛 𝙶𝚁𝙾𝚄𝙿 📛', url='https://t.me/+RP9ef7uRboBlZTk1')
         ],[  
         InlineKeyboardButton('⚕️ 𝙷𝚎𝚕𝚙 ⚕️', callback_data='help')
     ]]
