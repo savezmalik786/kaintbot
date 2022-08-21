@@ -150,7 +150,7 @@ async def advantage_spoll_choker(bot, query):
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
         else:
-            k = await query.message.edit('<b>𝚃𝙷𝙸𝚂 𝙼𝙾𝚅𝙸𝙴 𝙽𝙾𝚃 𝚄𝙿𝙻𝙾𝙰𝙳 𝚁𝚄𝚀𝙸𝙴𝚂𝚃 𝚃𝙾 𝙰𝙳𝙼𝙸𝙽𝙴 👉♻️ @jattruqest ♻️👈</b>')
+            k = await query.message.edit('<b>𝚃𝙷𝙸𝚂 𝙼𝙾𝚅𝙸𝙴 𝙽𝙾𝚃 𝚄𝙿𝙻𝙾𝙰𝙳 𝚁𝚄𝚀𝙸𝙴𝚂𝚃 𝚃𝙾 𝙰𝙳𝙼𝙸𝙽...👉♻️ @DmAdmine ♻️👈</b>')
             await asyncio.sleep(20)
             await k.delete()
 
@@ -499,8 +499,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
         InlineKeyboardButton('💝 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 💝', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ],[
-        InlineKeyboardButton('♻️ 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ♻️', url='https://t.me/+29zDnMjiev5iYTA1'),
-        InlineKeyboardButton('📛 𝙶𝚁𝙾𝚄𝙿 📛', url='https://t.me/+LmjeEQKvH_Q3ODVl')
+        InlineKeyboardButton('♻️ 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ♻️', url='https://t.me/+thGM8huKvT1jZWFl'),
+        InlineKeyboardButton('📛 𝙶𝚁𝙾𝚄𝙿 📛', url='https://t.me/+RP9ef7uRboBlZTk1')
        ],[  
        InlineKeyboardButton('⚕️ 𝙷𝚎𝚕𝚙 ⚕️', callback_data='help'),
     ]]
@@ -1028,9 +1028,9 @@ async def auto_filter(client, msg: pyrogram.types.Message, spoll=False):
     )
     btn.insert(1,
         [
-            InlineKeyboardButton(text="🧛𝙶𝚁𝙾𝚄𝙿🧛", url="https://t.me/+LmjeEQKvH_Q3ODVl"),
+            InlineKeyboardButton(text="🧛𝙶𝚁𝙾𝚄𝙿🧛", url="https://t.me/+RP9ef7uRboBlZTk1"),
             InlineKeyboardButton(text="🦹‍♀️𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴🦹‍♀️", url="https://youtube.com/shorts/WiDmMCNCcGQ?feature=share"),
-            InlineKeyboardButton(text="🧞‍♂️𝙲𝙷𝙰𝙽𝙽𝙴𝙻🧞‍♂️", url="https://t.me/+29zDnMjiev5iYTA1")
+            InlineKeyboardButton(text="🧞‍♂️𝙲𝙷𝙰𝙽𝙽𝙴𝙻🧞‍♂️", url="https://t.me/+thGM8huKvT1jZWFl")
         ]
     )
 
