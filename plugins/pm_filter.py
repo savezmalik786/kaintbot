@@ -150,7 +150,7 @@ async def advantage_spoll_choker(bot, query):
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
         else:
-            k = await query.message.edit('<b>👉𝚃𝙷𝙸𝚂 𝙼𝙾𝚅𝙸𝙴 𝙽𝙾𝚃 𝚄𝙿𝙻𝙾𝙰𝙳👈</b>')
+            k = await query.message.edit('<b>𝙏𝙃𝙄𝙎 𝙈𝙊𝙑𝙄𝙀 𝙉𝙊𝙏 𝙐𝙋𝙇𝙊𝘼𝘿𝙀 𝙍𝙐𝙌𝙀𝙎𝙏 𝙏𝙊 𝘼𝘿𝙈𝙄𝙉𝙀 ✰✰✰✰ 👉@DmAdmine</b>')
             await asyncio.sleep(20)
             await k.delete()
 
