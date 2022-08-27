@@ -18,7 +18,7 @@
       "Tovino Bot"
     ],
     "website": "https://github.com/DKBOTx/TovinoBotV3",
-    "repository": "https://github.com/DKBOTx/TovinoBotV3",
+    "repository": "https://github.com/savezmalik786/kaintbot",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
